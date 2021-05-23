@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+    <h1>Get in touch!</h1>
+    <p>
+      Hit me up, and I promise you will hear from me. I usually take anywhere
+      from 2 to 24 hours to respond, but rest assured that I will.
+    </p>
+    <a href="mailto:kartiiksachdeva@gmail.com">Email</a>
+    <br />
+    <a href="https://github.com/kartiiks">GitHub</a>
+    <br />
+    <a href="https://www.linkedin.com/in/kartiiksachdeva">LinkedIn</a>
+    <div>
+      <form
+        action="mailto:kartiiksachdeva@gmail.com"
+        enctype="text/plain"
+        method="POST"
+      >
+        <p>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Name"
+            id="name"
+            name="name"
+            value=""
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            value=""
+            required
+          />
+        </p>
+        <p>
+          <label for="message">Your Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Your message here..."
+          ></textarea>
+        </p>
+        <p>Would you like to sign up for the newsletter?</p>
+        <p>
+          <label for="yes-newsletter">Yes</label>
+          <input
+            type="radio"
+            name="newsletter"
+            id="yes-newsletter"
+            value="yes"
+            required
+          />
+        </p>
+        <p>
+          <label for="no-newsletter">No</label>
+          <input
+            type="radio"
+            name="newsletter"
+            id="no-newsletter"
+            value="no"
+            required
+          />
+        </p>
+        <input type="submit" name="" id="" />
+      </form>
+    </div>
+  </body>
+</html>
